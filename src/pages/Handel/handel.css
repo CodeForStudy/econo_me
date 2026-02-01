@@ -153,6 +153,10 @@ html {
 	font-size: clamp(1.3rem, 1.1rem + 0.7vw, 1.9rem);
 }
 
+.content-section h4.active {
+	font-weight: 700;
+}
+
 .content-section p {
 	color: #e9eef6;
 	margin-bottom: 0.7rem;
