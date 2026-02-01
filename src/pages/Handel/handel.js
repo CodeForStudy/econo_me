@@ -223,13 +223,19 @@
       });
     });
 
-    const sections = Array.from(document.querySelectorAll('.content-section[id]'));
+    const linkById = {};
+    const headingById = {};
+    links.forEach((l) => {
+      const h = l.getAttribute('href');
+      if (!h || !h.startsWith('#')) return;
+      const id = h.slice(1);
+      linkById[id] = l;
+      const heading = document.getElementById(id);
+      if (heading) headingById[id] = heading;
+    });
+
+    const sections = Object.values(headingById);
     if (sections.length) {
-      const linkById = {};
-      links.forEach((l) => {
-        const h = l.getAttribute('href');
-        if (h && h.startsWith('#')) linkById[h.slice(1)] = l;
-      });
 
       let ticking = false;
       let lastId = null;
@@ -256,7 +262,9 @@
         const id = best.id;
         if (id !== lastId) {
           if (lastId && linkById[lastId]) linkById[lastId].classList.remove('active');
+          if (lastId && headingById[lastId]) headingById[lastId].classList.remove('active');
           if (linkById[id]) linkById[id].classList.add('active');
+          if (headingById[id]) headingById[id].classList.add('active');
           lastId = id;
         }
       }
