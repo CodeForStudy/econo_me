@@ -1,0 +1,112 @@
+[
+  {
+    "frage": "Was ist ein Zoll?",
+    "optionen": [
+      "Eine Steuer auf exportierte Waren",
+      "Eine Abgabe auf importierte Waren",
+      "Ein Verbot von Handel",
+      "Ein Rabatt für inländische Produkte"
+    ],
+    "richtig": 1,
+    "erklaerung": "Zölle sind Abgaben auf importierte Waren. Sie können Preise erhöhen und den Import bremsen."
+  },
+  {
+    "frage": "Welche direkte Folge können höhere Zölle für Verbraucher haben?",
+    "optionen": [
+      "Niedrigere Preise",
+      "Mehr Auswahl",
+      "Höhere Preise",
+      "Keine Auswirkungen"
+    ],
+    "richtig": 2,
+    "erklaerung": "Zölle verteuern Importe; Unternehmen geben Kosten häufig an Verbraucher weiter."
+  },
+  {
+    "frage": "Welches Ziel kann ein Staat mit Zöllen verfolgen?",
+    "optionen": [
+      "Schutz heimischer Unternehmen",
+      "Senkung der Staatseinnahmen",
+      "Freier Handel ohne Regeln",
+      "Förderung von Importen"
+    ],
+    "richtig": 0,
+    "erklaerung": "Zölle sollen oft heimische Produktion schützen und Anpassungszeit schaffen."
+  },
+  {
+    "frage": "Warum können Lieferketten durch Handelskonflikte gestört werden?",
+    "optionen": [
+      "Weil Vorprodukte teurer oder schwerer verfügbar werden",
+      "Weil Rohstoffe kostenlos werden",
+      "Weil Nachfrage automatisch sinkt",
+      "Weil Unternehmen nicht planen müssen"
+    ],
+    "richtig": 0,
+    "erklaerung": "Zölle, Sanktionen oder Unsicherheiten verzögern oder verteuern Vorprodukte."
+  },
+  {
+    "frage": "Was bedeutet protektionistische Handelspolitik?",
+    "optionen": [
+      "Abschaffung aller Grenzen",
+      "Schutz der heimischen Wirtschaft durch Handelshemmnisse",
+      "Nur Digitalhandel ohne Regeln",
+      "Automatische Preissenkungen"
+    ],
+    "richtig": 1,
+    "erklaerung": "Protektionismus schützt inländische Anbieter durch Zölle oder Quoten."
+  },
+  {
+    "frage": "Welche Wirkung hat internationale Konkurrenz häufig?",
+    "optionen": [
+      "Weniger Innovation",
+      "Mehr Innovationsdruck",
+      "Kein Einfluss auf Unternehmen",
+      "Automatisches Exportverbot"
+    ],
+    "richtig": 1,
+    "erklaerung": "Mehr Wettbewerb erhöht den Druck, Produkte zu verbessern und Preise attraktiv zu halten."
+  },
+  {
+    "frage": "Warum sind Exporte für Deutschland besonders wichtig?",
+    "optionen": [
+      "Deutschland importiert kaum",
+      "Deutschland ist stark exportorientiert",
+      "Deutschland handelt nur national",
+      "Deutschland hat keine Industrie"
+    ],
+    "richtig": 1,
+    "erklaerung": "Deutschland ist eine exportorientierte Volkswirtschaft, die stark vom Außenhandel profitiert."
+  },
+  {
+    "frage": "Was ist ein möglicher Effekt von Gegenzöllen?",
+    "optionen": [
+      "Weniger Handelshemmnisse",
+      "Eskalation von Handelskonflikten",
+      "Automatische Preisstabilität",
+      "Sofortiger Abbau aller Zölle"
+    ],
+    "richtig": 1,
+    "erklaerung": "Gegenzölle können Konflikte verschärfen und weitere Handelshemmnisse auslösen."
+  },
+  {
+    "frage": "Warum diversifizieren Unternehmen Lieferketten?",
+    "optionen": [
+      "Um Risiken durch politische Konflikte zu senken",
+      "Weil alle Lieferanten gleich teuer sind",
+      "Um Zölle zu erhöhen",
+      "Weil Export verboten ist"
+    ],
+    "richtig": 0,
+    "erklaerung": "Diversifizierung verringert Abhängigkeiten und Risiken bei Störungen."
+  },
+  {
+    "frage": "Was leisten Freihandelsabkommen typischerweise?",
+    "optionen": [
+      "Sie erhöhen dauerhaft Zölle",
+      "Sie senken Hürden und erleichtern Marktzugang",
+      "Sie verbieten Handel mit Partnern",
+      "Sie ersetzen nationale Regeln vollständig"
+    ],
+    "richtig": 1,
+    "erklaerung": "Abkommen bauen Zölle und Bürokratie ab und fördern Handel zwischen Partnern."
+  }
+]
