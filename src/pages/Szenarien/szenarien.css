@@ -436,16 +436,32 @@ html {
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 0.7);
-	width: 16px;
-	min-width: 16px;
-	padding: 0.2rem 0;
+	width: 28px;
+	min-width: 28px;
+	padding: 0;
 	border-right: 1px solid rgba(255, 255, 255, 0.1);
-	background: rgba(59, 130, 246, 0.12);
-	writing-mode: vertical-rl;
-	text-orientation: mixed;
-	transform: rotate(180deg);
 	text-align: center;
 	vertical-align: middle;
+	position: relative;
+	overflow: hidden;
+}
+
+.scenario-group-label::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: rgba(59, 130, 246, 0.12);
+}
+
+.scenario-group-text {
+	display: inline-block;
+	white-space: nowrap;
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(-90deg);
+	z-index: 1;
 }
 
 .scenario-group-label + th {

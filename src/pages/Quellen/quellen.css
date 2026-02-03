@@ -45,10 +45,19 @@
 	margin-bottom: 0.6rem;
 	font-size: clamp(0.98rem, 0.9rem + 0.3vw, 1.1rem);
 	line-height: 1.6;
+	overflow-wrap: anywhere;
+	word-break: break-word;
 }
 
 .sources li {
 	margin-bottom: 0.4rem;
+	overflow-wrap: anywhere;
+	word-break: break-word;
+}
+
+.sources a {
+	overflow-wrap: anywhere;
+	word-break: break-word;
 }
 
 .reveal,
